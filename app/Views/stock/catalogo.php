@@ -14,7 +14,7 @@
 
                 <div class="card-body">
                     <h5 class="card-title"><?= esc($auto['marca']) ?> <?= esc($auto['modelo']) ?></h5>
-                    <a href="<?= site_url('stock/verDetalles/' . $auto['id_auto']) ?>" class="btn btn-primary">Ver Detalles</a>
+                    <a href="<?= site_url('stock/verDetalles/' . $auto['id_auto']) ?>" class="btn btn-primary">Ver Características</a>
                 </div>
             </div>
         </div>
